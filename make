@@ -5,7 +5,7 @@ PROJECT_NAME = Hello
 BUILD = build
 
 # All source code files
-SRC = HelloWorld.c\
+SRC = helloWorld.c\
 
 # Project Output name
 #PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
