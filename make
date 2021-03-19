@@ -20,11 +20,11 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) -o $(BUILD)/Hello.out
+	gcc $(SRC) -o $(BUILD)/helloWorld.out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(BUILD)/Hello.out
+	./$(BUILD)/helloWorld.out
 
 # Document the code using Doxygen
 doc:
